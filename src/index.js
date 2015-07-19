@@ -24,7 +24,7 @@ export default function(op, opts = []) {
     });
 
     event.data = result.css
-    event.map = result.map.toString()
+    event.applySourceMap(result.map.toString())
 
     return event
 
