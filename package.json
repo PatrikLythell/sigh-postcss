@@ -1,6 +1,6 @@
 {
   "name": "sigh-postcss",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "sigh plugin for postcss.",
   "scripts": {
     "test": "sigh"
