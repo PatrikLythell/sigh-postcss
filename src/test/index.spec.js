@@ -19,7 +19,7 @@ describe('sigh-test', () => {
     })
     var stream = Bacon.constant([ event ])
     return postcss({ stream }).toPromise(Promise).then(events => {
-      event.data.should.equal( ".blue { color: blue; " )
+      event.data.should.equal( ".blue { color: blue; }" )
     })
   })
 
@@ -34,7 +34,7 @@ describe('sigh-test', () => {
     })
     var stream = Bacon.constant([ event ])
     return postcss({ stream }, simplevars).toPromise(Promise).then(events => {
-      event.data.should.equal( ".blue { color: #056ef0; " )
+      event.data.should.equal( ".blue { color: #056ef0; }" )
     })
   })
 })
