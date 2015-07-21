@@ -13,7 +13,7 @@ Does NOT run in the Sigh process pool because of plugin injection functionality.
 ```javascript
 	pipeline.js = [
 		glob({ basePath: 'src' }, '**/*.css'),
-		postcss( [require('postcss-simple-vars')] ),
+		postcss( [require('postcss-simple-vars')] ), // add plugins as array
 		write('build/assets')
 	]
 ```

@@ -24,13 +24,11 @@
   "bugs": {
     "url": "https://github.com/patriklythell/sigh-postcss/issues"
   },
-  "peerDependencies": {
-    "postcss": "^4.1.16"
-  },
   "dependencies": {
     "bluebird": "^2.9.34",
     "lodash": "^3.10.0",
-    "sigh-core": "^0.11.7"
+    "sigh-core": "^0.11.7",
+    "postcss": "^4.1.16"
   },
   "devDependencies": {
     "babel": "^5.6.23",
